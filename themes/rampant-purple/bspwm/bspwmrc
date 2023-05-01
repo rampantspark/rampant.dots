@@ -1,0 +1,46 @@
+#! /bin/sh
+
+#pgrep -x sxhkd > /dev/null || sxhkd &
+sxhkd &
+wmname LG3D &
+nm-applet &
+blueman-applet &
+optimus-manager-qt &
+openrgb -p rampantspark &
+# Integrated graphics
+xrandr --output eDP-1 --primary --mode 2560x1600 --pos 3000x560 --scale 0.85x0.85 --rate 165 &
+# Dedicated graphics
+xrandr --output eDP-1-1 --primary --mode 2560x1600 --pos 3000x560 --scale 0.85x0.85 --rate 165 &
+# External dedicated graphics
+xrandr --output HDMI-0 --mode 1920x1080 --pos 0x840 --scale 1x1 --rate 74.97 &
+xrandr --output DP-2 --mode 1920x1080 --pos 1920x0 --rate 239.96 --rotate right &
+$HOME/.config/polybar/launch.sh &
+feh --bg-fill /usr/share/backgrounds/bspwm/installation04.jpg
+picom &
+#discord --start-minimied &
+#steam --silent &
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor eDP-1 -d I II III IV V
+bspc monitor eDP-1-1 -d I II III IV V
+bspc monitor HDMI-0 -d I II III IV V
+bspc monitor HDMI-1 -d I II III IV V
+bspc monitor DP-2 -d I II III IV V
+bspc config border_width         5
+bspc config window_gap          15
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config normal_border_color '#462570'
+bspc config focused_border_color '#D5629B'
+
+bspc rule -a Chromium desktop='^1'
+bspc rule -a firefoxdeveloperedition desktop='^1'
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+
