@@ -44,7 +44,7 @@
 ![2023-01-17T00:15:22](https://user-images.githubusercontent.com/75824585/212723937-c56200da-52f4-407b-9d8e-428348ed5ed0.png)
 </details>
 
->#  bspwm 
+> bspwm 
 
 <details>
 <summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
