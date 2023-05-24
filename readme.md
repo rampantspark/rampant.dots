@@ -1,5 +1,3 @@
-[![Push Blog](https://github.com/ruixi-rebirth/flakes/actions/workflows/push_blog.yml/badge.svg)](https://ruixi-rebirth.github.io) 
-
 <p align="center"><img src="https://github.com/rampantspark/rampant-dots/blob/main/img/96a9aca845b596ccc858eec33c4fbd48.png" width=300px></p>
 <h2 align="center">rampantspark's dotfiles</h2>
 <p align="center"><img src="https://github.com/rampantspark/rampant-dots/blob/main/img/196195007-ecebb290-2c6b-4fab-9e1e-2dbb12f7eb44.png" width=300px></p>
