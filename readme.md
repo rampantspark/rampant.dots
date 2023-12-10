@@ -29,7 +29,7 @@
 <details>
 <summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
 
-**rampant-purple**
+**rampant-catppuccin**
 
 ![rampant-catppuccin](https://github.com/rampantspark/rampant-dots/assets/80992075/381c00f0-0cd3-4000-a67f-2200e248280a)
 
