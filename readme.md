@@ -26,27 +26,12 @@
 |**Color Picker**|[hyprpicker](https://github.com/hyprwm/hyprpicker)||
 
 ### Themes
-
-> hyprland
-
 <details>
 <summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
 
 **rampant-purple**
 ![2023-01-12T02:21:59](https://user-images.githubusercontent.com/75824585/211895195-e0a47165-e635-4256-922c-17d7da1ed62e.png)
 
-**rampant-red**
-![2023-01-12T03:00:29](https://user-images.githubusercontent.com/75824585/211895280-41d12bfe-453c-41da-a2a6-3f7f483ea8ad.png)
-
-> bspwm 
-
-<details>
-<summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
-
-**rampant-purple**
-![2023-02-22_21-30](https://user-images.githubusercontent.com/75824585/220659944-7c93802a-2519-4bc1-9c9b-80d6bd81bce9.png)
-
-**rampant-red**
 </details>
 
 
