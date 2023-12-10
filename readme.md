@@ -30,9 +30,8 @@
 <summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
 
 **rampant-purple**
-![2023-01-12T02:21:59](https://github.com/rampantspark/rampant-dots/blob/main/img/rampant-catppuccin.png)
+![rampant-catppuccin](https://github.com/rampantspark/rampant-dots/assets/80992075/381c00f0-0cd3-4000-a67f-2200e248280a)
 
-https://github.com/rampantspark/rampant-dots/blob/main/img/rampant-catppuccin.png?raw=true
-</details>
+
 
 
