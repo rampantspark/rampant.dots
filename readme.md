@@ -38,10 +38,6 @@
 **rampant-red**
 ![2023-01-12T03:00:29](https://user-images.githubusercontent.com/75824585/211895280-41d12bfe-453c-41da-a2a6-3f7f483ea8ad.png)
 
-**nord**
-![2023-01-17T00:15:22](https://user-images.githubusercontent.com/75824585/212723937-c56200da-52f4-407b-9d8e-428348ed5ed0.png)
-</details>
-
 > bspwm 
 
 <details>
