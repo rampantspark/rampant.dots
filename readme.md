@@ -10,7 +10,7 @@
 |**Terminal Emulator**|[Kitty](https://github.com/kovidgoyal/kitty)|[Kitty](https://github.com/kovidgoyal/kitty)|
 |**Bar**|[Waybar](https://github.com/Alexays/Waybar)|[Polybar](https://github.com/polybar/polybar)|
 |**Application Launcher**|[wofi](https://github.com/lbonn/rofi)|[rofi](https://github.com/polybar/polybar)|
-|**Display Manager**|None(TTY1 Login)|None(TTY1 Login)|
+|**Display Manager**|[Ly](https://github.com/fairyglade/ly)|[Ly](https://github.com/fairyglade/ly) |
 |**network management tool**|[NetworkManager](https://networkmanager.dev/)|[NetworkManager](https://networkmanager.dev/)|
 |**System resource monitor**|[gotop](https://github.com/aristocratos/btop)|[gotop](https://github.com/aristocratos/btop)|
 |**File Manager**|[mc](https://github.com/ranger/ranger)|[mc](https://github.com/ranger/ranger)|

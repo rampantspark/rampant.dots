@@ -1,0 +1,113 @@
+@import url("./colors.css");
+* {
+  border: none;
+  border-radius: 0;
+  font-family: unifont, "Font Awesome 6 Free", "FiraCodeNerd-Font-Medium";
+  font-size: 20px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: white;
+  /* border: 5px solid #33b4de; */
+  border-radius: 15px;
+}
+
+tooltip {
+  background: #0f0f0f;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: @purple;
+}
+
+#workspaces button {
+  padding: 5px 10px;
+  color: @purple;
+  font-weight: bold;
+}
+
+#workspaces button.focused {
+  color: red;
+  background-color: @background;
+  border-radius: 15px;
+}
+
+#workspaces button.urgent {
+  color: @purple;
+  background-color: @backgroud;
+  border-radius: 15px;
+}
+
+#workspaces button:hover {
+  background-color: @background;
+  color: @purple;
+  border-radius: 15px;
+}
+
+#custom-date,
+#cpu,
+#memory,
+#clock,
+#battery,
+#backlight,
+#taskbar,
+#disk,
+#pulseaudio,
+#network,
+#workspaces,
+#tray {
+  background-color: @background;
+  color: @purple;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  border-bottom: 3px solid @purple;
+  border-top: 3px solid @purple;
+  font-family: "Fira Code", monospace;
+  font-weight: bold;
+}
+
+#workspaces {
+  border-radius: 15px 0px 0px 15px;
+  border-left: 3px solid @purple;
+}
+
+#cpu {
+  border-radius: 0px 0px 0px 0px;
+}
+
+#memory {
+}
+
+#disk {
+}
+
+#custom-date {
+}
+
+#clock {
+  border-radius: 0px 15px 15px 0px;
+  margin-right: 10px;
+  border-right: 3px solid @purple;
+}
+
+#battery {
+}
+
+#battery.charging {
+}
+
+#battery.warning:not(.charging) {
+}
+
+#network {
+}
+
+#pulseaudio {
+}
+
+#tray {
+  border-radius: 15px;
+  border: 3px solid @purple;
+}
