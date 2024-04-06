@@ -26,8 +26,6 @@
 |**Color Picker**|[hyprpicker](https://github.com/hyprwm/hyprpicker)||
 
 ### Themes
-<details>
-<summary><b>Load</b> <span style="font-size:14px;">(Click to expand) </span> </summary>
 
 **rampant-catppuccin**
 
