@@ -33,7 +33,7 @@
 
 **rampant-dracula (X11)**
 
-![rampant-dracula-x11]()
+![rampant-dracula-x11](https://github.com/rampantspark/rampant.dots/blob/main/img/rampant-gruvbox-x11.png)
 
 **rampant-dracula (Wayland)**
 
