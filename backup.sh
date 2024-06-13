@@ -7,7 +7,7 @@ src_dir="$HOME/.config"
 dest_dir="."
 
 # Array of directories to copy files from
-copy_dirs=("dunst" "fish" "hypr" "kitty" "neofetch" "nvim" "ranger" "tmux" "waybar" "wofi" "zathura")
+copy_dirs=("bspwm" "dunst" "fish" "hypr" "kitty" "neofetch" "nvim" "picom" "polybar" "ranger" "rofi" "sxhkd" "tmux" "zathura")
 
 # Function to copy directories recursively
 copy_directories() {

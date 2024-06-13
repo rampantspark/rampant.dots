@@ -1,0 +1,38 @@
+#!/bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+wmname LG3D &
+autorandr -c
+
+if [[ $(autorandr --current) == "docked" ]]; then
+  # bspc monitor calls to xrandr displays with "." in the name need the % prefix
+  bspc monitor %DP-2.1.5 -d I II III IV V
+  bspc monitor %DP-2.2 -d VI VII VIII IX X
+elif [[ $(autorandr --current) == "mobile-igpu" ]]; then
+  bspc monitor eDP-1 -d I II III IV V
+
+elif [[ $(autorandr --current) == "mobile-dgpu" ]]; then
+  bspc monitor eDP-1-1 -d I II III IV V
+fi
+
+bspc config border_width 5
+bspc config window_gap 15
+bspc config split_ratio 0.50
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+bspc config paddingless_monocle true
+bspc config focus_follows_pointer true
+
+bspc config normal_border_color '#a89984'
+bspc config focused_border_color '#fbf1c7'
+bspc config presel_feedback_color '#fbf1c7'
+
+feh --bg-fill ~/Pictures/wallpapers/gruv-abstract-maze.png &
+betterlockscreen -u ~/Pictures/wallpapers/gruv-abstract-maze &
+~/.config/polybar/launch.sh &
+picom --config ~/.config/picom/picom.conf &
+flameshot &
+
+bspc rule -a firefoxdeveloperedition desktop='^1' follow=on
+bspc rule -a obsidian desktop='^2' follow=on
+bspc rule -a kitty desktop='^3' follow=on

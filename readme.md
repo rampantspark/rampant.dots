@@ -4,20 +4,20 @@
 
 
 ### Dependencies
-|**Arch Linux**|Wayland|Xorg|
+|**Arch Linux**|Wayland|X11|
 | - | :--: | :--: |
 |**Window Manager**|[Hyprland](https://github.com/hyprwm/Hyprland)|[bspwm](https://github.com/baskerville/bspwm)|
 |**Terminal Emulator**|[Kitty](https://github.com/kovidgoyal/kitty)|[Kitty](https://github.com/kovidgoyal/kitty)|
 |**Bar**|[Waybar](https://github.com/Alexays/Waybar)|[Polybar](https://github.com/polybar/polybar)|
-|**Application Launcher**|[wofi](https://github.com/lbonn/rofi)|[rofi](https://github.com/polybar/polybar)|
+|**Application Launcher**|[rofi](https://github.com/lbonn/rofi)|[rofi](https://github.com/lbonn/rofi)|
 |**Display Manager**|[Ly](https://github.com/fairyglade/ly)|[Ly](https://github.com/fairyglade/ly) |
 |**network management tool**|[NetworkManager](https://networkmanager.dev/)|[NetworkManager](https://networkmanager.dev/)|
 |**System resource monitor**|[gotop](https://github.com/aristocratos/btop)|[gotop](https://github.com/aristocratos/btop)|
 |**File Manager**|[mc](https://github.com/ranger/ranger)|[mc](https://github.com/ranger/ranger)|
 |**Lockscreen**|[Swaylock-effects](https://github.com/mortie/swaylock-effects)|[betterlockscreen](https://github.com/meskarune/i3lock-fancy)|
-|**Shell**|[Fish](https://github.com/fish-shell/fish-shell)|[Fish](https://github.com/fish-shell/fish-shell)|
+|**Shell**|[zsh](https://www.zsh.org/)|[zsh](https://www.zsh.org/)|
 |**Text Editor**|[Neovim](https://github.com/neovim/neovim)|[Neovim](https://github.com/neovim/neovim)|
-|**Icons**|[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)|[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)|
+|**Icons**|[Dracula]()|[Dracula]()|
 |**Fonts**|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts)|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts)|
 |**Image Viewer**|[imv](https://sr.ht/~exec64/imv/)|[feh](https://feh.finalrewind.org/)|
 |**Screenshot Software**|[grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot),[grimblast](https://github.com/hyprwm/contrib)|[flameshot](https://github.com/flameshot-org/flameshot)|
@@ -25,7 +25,22 @@
 |**Clipboard**|[wl-clipboard](https://github.com/bugaevc/wl-clipboard)|[xclip](https://opensource.com/article/19/7/xclip)|
 |**Color Picker**|[hyprpicker](https://github.com/hyprwm/hyprpicker)||
 
+### Sources
+
+[tmux](https://github.com/gpakosz/.tmux)
+
 ### Themes
+
+**rampant-dracula (X11)**
+
+![rampant-dracula-x11]()
+
+**rampant-dracula (Wayland)**
+
+![rampant-dracula-wayland]()
+
+
+#### Archived
 
 **rampant-catppuccin**
 
