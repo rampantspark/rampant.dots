@@ -11,15 +11,15 @@
 |**Bar**|[Waybar](https://github.com/Alexays/Waybar)|[Polybar](https://github.com/polybar/polybar)|
 |**Application Launcher**|[rofi](https://github.com/lbonn/rofi)|[rofi](https://github.com/lbonn/rofi)|
 |**Display Manager**|[Ly](https://github.com/fairyglade/ly)|[Ly](https://github.com/fairyglade/ly) |
-|**network management tool**|[NetworkManager](https://networkmanager.dev/)|[NetworkManager](https://networkmanager.dev/)|
+|**Network Management**|[NetworkManager](https://networkmanager.dev/)|[NetworkManager](https://networkmanager.dev/)|
 |**System resource monitor**|[gotop](https://github.com/aristocratos/btop)|[gotop](https://github.com/aristocratos/btop)|
-|**File Manager**|[mc](https://github.com/ranger/ranger)|[mc](https://github.com/ranger/ranger)|
+|**File Manager**|[ranger](https://github.com/ranger/ranger)|[ranger](https://github.com/ranger/ranger)|
 |**Lockscreen**|[Swaylock-effects](https://github.com/mortie/swaylock-effects)|[betterlockscreen](https://github.com/meskarune/i3lock-fancy)|
 |**Shell**|[zsh](https://www.zsh.org/)|[zsh](https://www.zsh.org/)|
 |**Text Editor**|[Neovim](https://github.com/neovim/neovim)|[Neovim](https://github.com/neovim/neovim)|
 |**Icons**|[Dracula]()|[Dracula]()|
-|**Fonts**|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts)|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts)|
-|**Image Viewer**|[imv](https://sr.ht/~exec64/imv/)|[feh](https://feh.finalrewind.org/)|
+|**Fonts**|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts) [Font-Awesome](https://archlinux.org/packages/extra/any/ttf-font-awesome/)|[Nerd fonts](https://github.com/ryanoasis/nerd-fonts) [Font-Awesome](https://archlinux.org/packages/extra/any/ttf-font-awesome/)|
+|**Image Viewer**|[imv](https://sr.ht/~exec64/imv/)|[viu](https://github.com/atanunq/viu)|
 |**Screenshot Software**|[grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot),[grimblast](https://github.com/hyprwm/contrib)|[flameshot](https://github.com/flameshot-org/flameshot)|
 |**Screen Recording**|[OBS](https://obsproject.com)|[OBS](https://obsproject.com)|
 |**Clipboard**|[wl-clipboard](https://github.com/bugaevc/wl-clipboard)|[xclip](https://opensource.com/article/19/7/xclip)|
