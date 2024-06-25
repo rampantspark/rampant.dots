@@ -29,6 +29,29 @@
 
 [tmux](https://github.com/gpakosz/.tmux)
 
+### Theme Backup and Installation Script
+
+#### Backup
+
+  **Usage:**
+
+`./backup-restore.sh <operation> <window system> <theme dir>`
+
+**Example:**
+
+`./backup-restore.sh backup x11 theme_dir`
+
+#### Installation
+
+  **Usage:**
+
+`./backup-restore.sh <operation> <window system> <theme dir>`
+
+  **Example:**
+
+`./backup-restore.sh install hypr theme_dir`
+
+
 ### Themes
 
 **rampant-dracula (X11)**
